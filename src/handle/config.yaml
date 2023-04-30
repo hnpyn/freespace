@@ -1,0 +1,15 @@
+%YAML:1.0
+
+distance_max: 50.0
+distance_min: 1.0
+distance_resolution: 0.5
+angle_begin: 0.0
+angle_end: 360.0
+angle_resolution: 0.5
+t_height: 0.15
+t_nums: 0.0
+t_correct_dis: 2.5
+t_angle_begin: 120
+t_angle_end: 240
+t_side_distance: 15.0
+t_angle_free: 0.0
