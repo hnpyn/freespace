@@ -1,7 +1,7 @@
 <launch>
   
     <node pkg="handle" name="freespace" type="example" output="screen"/>
-    <node pkg="rosbag" type="play" name="playe" output="screen" args="/home/wang/driveworks/freespace/bag/2021-03-15-16-30-16.bag"/>
+    <node pkg="rosbag" type="play" name="playe" output="screen" args="$HOME/freespace/bag/2021-03-15-16-30-16.bag"/>
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find handle)/config/freespace_rviz.rviz" required="true" />  
 
 </launch>
