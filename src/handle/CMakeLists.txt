@@ -133,7 +133,6 @@ add_executable(# test_main test_main.cpp
   example example.cpp 
   src/free_space.cpp 
   src/config.cpp 
-  src/local_map_filter.cpp 
   ${PROJECT_SOURCE_DIR} 
 )
 
