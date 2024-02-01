@@ -36,3 +36,5 @@
 install/*
 devel/*
 build/*
+
+.DS_Store
